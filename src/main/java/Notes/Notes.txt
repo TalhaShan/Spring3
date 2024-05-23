@@ -1,0 +1,7 @@
+1. Spring 3 uses micrometer that gives us more observable logs that can be use in grafana prometheus
+2. ProblemDetail  class recently add for to check exception handling in Custom Exception Spring Boot
+3. ObservationRegistry class @Autowired for micrometer details of business logic or ServiceLayer
+4. Also need to enable actuator endpoints for that.
+5. Now we HTTPExchange instead of RestClient and WeBClient that will use declaritve approach with interfaces
+6.NewWayOfCallingThirdPartyAPI.png
+
